@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="Ncounter"
 run/main_scene="res://main.tscn"
 
+[autoload]
+
+Server="*res://Singletons/Server.gd"
+
 [input]
 
 move_up={
