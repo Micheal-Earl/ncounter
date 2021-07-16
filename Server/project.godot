@@ -10,7 +10,6 @@ config_version=4
 
 _global_script_classes=[  ]
 _global_script_class_icons={
-
 }
 
 [application]
@@ -18,6 +17,7 @@ _global_script_class_icons={
 config/name="Ncounter Server"
 run/main_scene="res://Server.tscn"
 
-[rendering]
+[autoload]
 
-environment/default_environment="res://default_env.tres"
+Server="*res://Server.gd"
+Gamestate="*res://Gamestate.gd"
