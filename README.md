@@ -1,1 +1,1 @@
-A BLC/Battlerite style arena brawler.
+A diablo-esque top down game
